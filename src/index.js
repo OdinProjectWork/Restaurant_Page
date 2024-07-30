@@ -23,13 +23,14 @@ function appendContent(){
         content.appendChild(Home());
     }
 
-    aboutButton.onclick = () =>{
-        content.innerHTML = "";
-        content.appendChild(About());
-    }
     menuButton.onclick = () =>{
         content.innerHTML = "";
         content.appendChild(Menu());
+    }
+
+    aboutButton.onclick = ()=>{
+        content.innerHTML = "";
+        content.appendChild(About());
     }
     return content;
 }
