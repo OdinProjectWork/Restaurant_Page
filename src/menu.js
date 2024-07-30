@@ -46,7 +46,7 @@ function Menu(){
     menu.appendChild(sweetsContainer);
     
     const cincinno = new Image();
-    cincinno.src = cincinno;
+    cincinno.src = Cinccino;
     cincinno.setAttribute("id","cincinno");
     
     const lunchContainer = document.createElement("div");
@@ -65,8 +65,9 @@ function Menu(){
 
     lunchCard.textContent = "Lunches";
     lunchCard.appendChild(lunchesList);
+    lunchContainer.appendChild(cincinno);
     lunchContainer.appendChild(lunchCard);
-    menu.appendChild(lunchCard);
+    menu.appendChild(lunchContainer);
 
     const drinkCard = document.createElement('div');
     drinkCard.setAttribute("class","main-welcome");

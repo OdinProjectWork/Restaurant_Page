@@ -188,21 +188,32 @@ button:hover{
 }
 
 #celebi{
-    width:150px;
-    height:150px;
+    width:200px;
+    height:200px;
     top:50px;
     left:800px;
     position: absolute;
 
 }
 
+#cincinno{
+    position: absolute;
+    left:50px;
+}
+
 #sweets-container{
     position: relative;
 }
 
-#about{
+#lunch-container{
+    position: relative;
+}
+
+#aboutContainer{
     display: flex;
-    margin-top:25px;
+    justify-content: start;
+    font-family: 28px;
+    margin-top:40px;
 }
 
 #about-title{

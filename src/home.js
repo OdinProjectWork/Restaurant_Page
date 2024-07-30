@@ -24,7 +24,7 @@ function Home() {
     let times = ["Monday...... 10AM-9PM", "Tuesday...... 10AM-9PM", "Wednesday...... 10AM-9PM", "Thursday......10AM-9PM", "Friday......10AM-7PM", "Saturday......10AM-7PM", "Sunday......10AM-7PM"];
 
     let scheduleUL = document.createElement("ul");
-    scheduleUL.setAttribute("id","open-hours");
+    scheduleUL.setAttribute("id","menu-list");
     for(let i =0; i<times.length; i++){
         let li = document.createElement("li");
         li.textContent = times[i];
